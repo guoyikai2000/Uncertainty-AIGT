@@ -1,20 +1,6 @@
-```markdown
-# Uncertainty-AIGT
-ICML 2026 "On the Salience of Low-Probability Tokens for AI-Generated Text Detection: A Multiscale Uncertainty Perspective"
+# Uncertainty: Low Probability Tokens for AI-generated Text Detection
 
-This repository contains the implementation and datasets for evaluating **Uncertainty** and **Uncertainty++** methodologies.
-
----
-
-## 📂 Project Structure
-.
-├── datasets/                          # Main experimental data
-├── scripts/
-│   ├── uncertainty_black.py           # Script to run Uncertainty
-│   ├── uncertainty++_black.py         # Script to run Uncertainty++
-├── Proxy_LLMs/                        # Directory for Proxy Models (User created)
-└── README.md
-```
+Official resources of **"On the Salience of Low-Probability Tokens for AI-Generated Text Detection: A Multiscale Uncertainty Perspective"**. Yikai Guo, Bin Wang, Xilai Fan, Wenjun Ke, Haoran Luo. **ICML 2026**.
 
 ---
 
@@ -22,8 +8,6 @@ This repository contains the implementation and datasets for evaluating **Uncert
 
 **Important:** Before running the code, you must download the proxy models and place them in the following path:
 `./Proxy_LLMs/`
-
----
 
 ## 🚀 Running the Experiments
 
@@ -37,7 +21,7 @@ cd scripts
 
 ### 2. Run Uncertainty
 
-To execute the standard Uncertainty evaluation:
+To execute the standard Uncertainty:
 
 ```bash
 python uncertainty_black.py
@@ -45,7 +29,7 @@ python uncertainty_black.py
 
 ### 3. Run Uncertainty++
 
-To execute the enhanced Uncertainty++ evaluation:
+To execute the enhanced Uncertainty++:
 
 ```bash
 python uncertainty++_black.py
@@ -61,7 +45,3 @@ We utilize main datasets from the **Lastde_Detector** repository. Please refer t
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
-
-```
-
-```
