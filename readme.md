@@ -40,7 +40,7 @@ python uncertainty++_black.py
 ## 📚 Acknowledgements
 
 We utilize main datasets from the **Lastde_Detector** repository. Please refer to the original source for more details:
-[https://github.com/TrustMedia-zju/Lastde_Detector](https://github.com/TrustMedia-zju/Lastde_Detector)
+[https://github.com/TrustMedia-zju/Lastde_Detector](https://github.com/TrustMedia-zju/Lastde_Detector).
 
 ## 📄 License
 
