@@ -1,4 +1,4 @@
-# Uncertainty: Low-prob Tokens for AI-generated Text Detection
+# Uncertainty Tokens for AI-generated Text Detection
 
 Official resources of **"On the Salience of Low-Probability Tokens for AI-Generated Text Detection: A Multiscale Uncertainty Perspective"**. Yikai Guo, Bin Wang, Xilai Fan, Wenjun Ke, Haoran Luo. **ICML 2026**.
 
